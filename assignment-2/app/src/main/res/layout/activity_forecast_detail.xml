@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForecastDetailActivity">
+
+    <TextView
+        android:id="@+id/tv_repo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:text="Forecast of the Day"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+    android:id="@+id/tv_repo_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:textSize="22sp"
+    android:text="Forecast Description"/>
+
+    <TextView
+        android:id="@+id/tv_feels_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:text="Forecast Description"/>
+
+    <TextView
+        android:id="@+id/tv_forecast_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:text="Forecast Description"/>
+
+</LinearLayout>
